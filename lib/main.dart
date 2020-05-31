@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: <Color>[
-                    Colors.teal.withAlpha(90),
-                    Colors.tealAccent.shade400,
+                    Colors.red.withAlpha(90),
+                    Colors.redAccent.shade400,
                   ],
                 ),
               ),
@@ -36,14 +36,6 @@ class MyApp extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Container(
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                          image: NetworkImage(
-                              "https://files.wallpaperpass.com/2019/10/joker%20wallpaper%2035%20-%201440x1280-768x683.jpg"),
-                          fit: BoxFit.cover),
-                    ),
-                  ),
                   CircleAvatar(
                     backgroundColor: Colors.white70,
                     backgroundImage: AssetImage('images/user.jpg'),
@@ -125,7 +117,7 @@ class MyApp extends StatelessWidget {
           child: Icon(
             Icons.arrow_forward_ios,
           ),
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.redAccent,
         ),
       ),
     );
