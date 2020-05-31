@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: <Color>[
-                    Colors.red.withAlpha(90),
-                    Colors.redAccent.shade400,
+                    Colors.redAccent.withAlpha(90),
+                    Colors.tealAccent,
                   ],
                 ),
               ),
@@ -117,7 +117,7 @@ class MyApp extends StatelessWidget {
           child: Icon(
             Icons.arrow_forward_ios,
           ),
-          backgroundColor: Colors.redAccent,
+          backgroundColor: Colors.teal,
         ),
       ),
     );
